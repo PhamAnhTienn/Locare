@@ -8,8 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      'locare': '#ff385c',
-      'locare-dark': '#d50027'
+      colors: { 
+        'locare': '#ff385c',
+        'locare-dark': '#d50027',
+      },
     },
   },
   plugins: [],
